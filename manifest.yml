@@ -1,0 +1,11 @@
+---
+applications:
+- name: bagdkartApp
+  domain: mybluemix.net
+  instances: 1
+  memory: 1024M
+  env:
+    NODE_ENV: cloud-foundry
+  services:
+    - bagdkartbackendandroid
+    - Twilio-bagdkart

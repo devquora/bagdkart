@@ -1,0 +1,31 @@
+Driver app
+
+Registration 
+Url :-  https://vendorapp.mybluemix.net/driver
+Type:- post
+Required Parameters
+{
+"email":"",
+"password":"",
+"device_id":"",
+"gcm_id":"",
+"first_name":"",
+"last_name":""
+}
+
+output:
+
+{"emp_id":"","dob":"2018-02-12T19:20:28.959Z","address":"","locality":"","city":"","state":"","zipcode":"","country_code":"","mobile_no":"0","mobile_verified":0,"email_verified":0,"device_id":"235456767","gcm_id":"345655676","profile_pic":"","device_type":"android","status":"pending","social":"","created_at":"2018-02-12T19:20:28.959Z","updated_at":"2018-02-12T19:20:28.959Z","_id":"5a81e8fcfe86b5003824bd02","email":"ajay2@gmail.com","password":"$2a$10$URJtpNXpxLsQ4BQYPIioN.omn0HOgXUTSH8HAULGw3wlsx9vswPh6","first_name":"Sharad12","last_name":"Jaiswal","__v":0}
+
+Error
+
+{
+    "status": false,
+    "statusCode": 401,
+    "data": [
+        {
+            "msg": "Email Id is already exists"
+        }
+    ]
+}
+
